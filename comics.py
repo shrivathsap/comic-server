@@ -1,7 +1,10 @@
 from flask import Flask, render_template
 from bs4 import BeautifulSoup
-import json, requests
+import json, requests, warnings
 from datetime import datetime
+
+#ideally i shouldn't do this, but i'm burned out and i don't really care. But THE warning that occurs is about not verifying SSL certificates...
+warnings.simplefilter("ignore")
 
 app = Flask(__name__)
 
@@ -35,11 +38,15 @@ def update_list():
 	with open('url_info.json', "r") as f:
 		data = json.load(f)
 	for key in list(websites.keys()):
-		source = requests.get(websites[key]).text
+		try:#so far comicskingdom has had issues with SSL certificate verifications
+			source = requests.get(websites[key]).text
+		except:
+			source = requests.get(websites[key], verify=False).text
 		soup = BeautifulSoup(source, 'lxml')
-		data[key]["url"] = soup.find('slider-image')['image-url']
+		#data[key]["url"] = soup.find('slider-image')['image-url']
+		data[key]["url"] = soup.find('div', class_="comic").img['src']#they changed the HTML and somehow didn't set up SSL certificate properly
 		data[key]["alt"] = ""
-		image_list.append([key, (soup.find_all(class_="desktop")[1].text), soup.find('slider-image')['image-url'],'', websites[key]])
+		image_list.append([key, (soup.find('li', class_='comic-date').text), soup.find('div', class_="comic").img['src'],'', websites[key]])
 
 	for key in list(websites2.keys()):
 		source = requests.get(websites2[key]).text

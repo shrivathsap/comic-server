@@ -1,0 +1,62 @@
+{
+  "Popeye": {
+    "url": "https://safr.kingfeatures.com/api/img.php?e=gif&s=c&file=UG9wZXllLzIwMjIvMDIvUG9wZXllLjIwMjIwMjA4XzE1MzYuZ2lm",
+    "alt": ""
+  },
+  "Hagar the horrible": {
+    "url": "https://safr.kingfeatures.com/api/img.php?e=gif&s=c&file=SGFnYXJUaGVIb3JyaWJsZS8yMDIyLzAyL0hhZ2FyX1RoZV9Ib3JyaWJsZS4yMDIyMDIwOF8xNTM2LmdpZg==",
+    "alt": ""
+  },
+  "Blondie": {
+    "url": "https://safr.kingfeatures.com/api/img.php?e=gif&s=c&file=QmxvbmRpZS8yMDIyLzAyL0Jsb25kaWUuMjAyMjAyMDhfMTUzNi5naWY=",
+    "alt": ""
+  },
+  "Marvin": {
+    "url": "https://safr.kingfeatures.com/api/img.php?e=gif&s=c&file=TWFydmluLzIwMjIvMDIvTWFydmluLjIwMjIwMjA4XzE1MzYuZ2lm",
+    "alt": ""
+  },
+  "Moose and Molly": {
+    "url": "https://safr.kingfeatures.com/api/img.php?e=gif&s=c&file=TW9vc2VBbmRNb2xseS8yMDIyLzAyL01vb3NlLjIwMjIwMjA4XzE1MzYuZ2lm",
+    "alt": ""
+  },
+  "Beetle Bailey": {
+    "url": "https://safr.kingfeatures.com/api/img.php?e=gif&s=c&file=QmVldGxlQmFpbGV5LzIwMjIvMDIvQmVldGxlX0JhaWxleS4yMDIyMDIwOF8xNTM2LmdpZg==",
+    "alt": ""
+  },
+  "Tiger": {
+    "url": "https://safr.kingfeatures.com/api/img.php?e=gif&s=c&file=VGlnZXIvMjAyMi8wMi9UaWdlci4yMDIyMDIwOF8xNTM2LmdpZg==",
+    "alt": ""
+  },
+  "Calvin and Hobbes": {
+    "url": "https://assets.amuniversal.com/1a19d98046a0013a8e1d005056a9545d",
+    "alt": ""
+  },
+  "Peanuts": {
+    "url": "https://assets.amuniversal.com/36ac0250650d013a9525005056a9545d",
+    "alt": ""
+  },
+  "Pooch cafe": {
+    "url": "https://assets.amuniversal.com/52a45be064e6013a9525005056a9545d",
+    "alt": ""
+  },
+  "Pearls before swine": {
+    "url": "https://assets.amuniversal.com/2140f5c065b1013a9525005056a9545d",
+    "alt": ""
+  },
+  "Garfield": {
+    "url": "https://assets.amuniversal.com/c1239d30604b013a946b005056a9545d",
+    "alt": ""
+  },
+  "Wumo": {
+    "url": "https://assets.amuniversal.com/743ebc805c61013a9386005056a9545d",
+    "alt": ""
+  },
+  "Dilbert": {
+    "url": "https://assets.amuniversal.com/03888880628c013a9525005056a9545d",
+    "alt": ""
+  },
+  "xkcd": {
+    "url": "https://imgs.xkcd.com/comics/sword_pull.png",
+    "alt": "Merlin really shouldn't leave his dirt bike lying around."
+  }
+}
